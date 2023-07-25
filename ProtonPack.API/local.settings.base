@@ -1,0 +1,12 @@
+{
+	"IsEncrypted": false,
+	"Values": {
+		"AzureWebJobsStorage": "UseDevelopmentStorage=true",
+		"FUNCTIONS_WORKER_RUNTIME": "dotnet"
+	},
+	"ConnectionStrings": {
+		"ProtonPack": "Server=tcp:venkman-dev.database.windows.net,1433;Database=Zuul-DEV;User ID=gozer;Password=Gh0st Bust3rs!;Trusted_Connection=False;Encrypt=True;",
+
+		"Placeholder": ""
+	}
+}

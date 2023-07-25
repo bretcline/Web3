@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ProtonPack.API": {
+      "commandName": "Project",
+      "commandLineArgs": "func start --csharp  start --pause-on-error --port 7071 --cors *"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Zuul.API": {
+      "commandName": "Project",
+      "commandLineArgs": "func start --csharp  start --pause-on-error --port 7073 --cors *"
+    }
+  }
+}

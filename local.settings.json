@@ -1,0 +1,20 @@
+{
+	"IsEncrypted": false,
+	"Values": {
+		"AzureWebJobsStorage": "UseDevelopmentStorage=true",
+		"FUNCTIONS_WORKER_RUNTIME": "dotnet",
+		"JWT_Key": "This is the key to unlock the world"
+	},
+	"Host": {
+		"LocalHttpPort": 7071,
+		"CORS": "*"
+	},
+	"ConnectionStrings": {
+		"ProtonPack": "Server=tcp:venkman-dev01.database.windows.net,1433;Database=Zuul_DEV;User ID=gozer_dev;Password=Pr0t0n P4ck!@!;Trusted_Connection=False;Encrypt=True;",
+		//"ProtonPack": "Server=tcp:venkman-prod.database.windows.net,1433;Database=Zuul_DEV;User ID=gozer_dev;Password=Pr0t0n P4ck!@!;Trusted_Connection=False;Encrypt=True;",
+		//"ProtonPack": "Server=tcp:venkman-dev01.database.windows.net,1433;Database=Zuul_TEST;User ID=gozer_dev;Password=Pr0t0n P4ck!@!;Trusted_Connection=False;Encrypt=True;",
+		//"ProtonPack": "Server=tcp:venkman-prod.database.windows.net,1433;Database=Zuul_PROD;User ID=gozer_prod;Password=Gh05t Bu5t3r5!@!;Trusted_Connection=False;Encrypt=True;",
+
+		"Placeholder": ""
+	}
+}

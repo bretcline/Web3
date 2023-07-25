@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ipfs.Http.Client" Version="0.33.0" />
+    <PackageReference Include="Nethereum.ABI" Version="4.8.0" />
+    <PackageReference Include="Nethereum.Contracts" Version="4.8.0" />
+    <PackageReference Include="Nethereum.Web3" Version="4.8.0" />
+    <PackageReference Include="Pinata.Client" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProtonPack.Data\ProtonPack.Data.csproj" />
+    <ProjectReference Include="..\Zuul.Data\Zuul.Data.csproj" />
+  </ItemGroup>
+
+</Project>
